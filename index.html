@@ -1,0 +1,400 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sanjeevan | Full Stack Developer</title>
+
+    <meta name="description"
+        content="Official portfolio of Sanjeevan, Full Stack Developer and Computer Science Engineering student.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                SANJEEVAN<span>.</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="themeToggle" type="button">
+                🌙
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HOME -->
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="welcome">
+                    WELCOME TO MY PORTFOLIO
+                </p>
+
+                <h1>
+                    Hi, I'm <span>Sanjeevan</span>
+                </h1>
+
+                <h2>Full Stack Developer</h2>
+
+                <p>
+                    I am a Computer Science Engineering student
+                    passionate about Full Stack Development,
+                    Artificial Intelligence and Technology.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn">
+                        View My Projects
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <div class="profile-circle">
+                    SC
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-content">
+
+                <p>
+                    Hello! I am Sanjeevan C, a Computer Science
+                    Engineering student at The Kavery Engineering
+                    College.
+
+                    I am interested in Full Stack Development,
+                    Web Technologies and Artificial Intelligence.
+
+                    My goal is to become a Full Stack and AI Developer
+                    and build useful real-world applications.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION -->
+        <section id="education" class="section">
+
+            <h2 class="section-title">My Education</h2>
+
+            <div class="info-card">
+
+                <h3>Bachelor of Engineering - CSE</h3>
+
+                <p>The Kavery Engineering College</p>
+
+                <p>Currently Pursuing</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+
+            <h2 class="section-title">Technical Skills</h2>
+
+            <div class="skills-container">
+
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">React</div>
+                <div class="skill-card">Node.js</div>
+                <div class="skill-card">Python</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-container">
+
+                <div class="project-card">
+
+                    <h3>Smart Price Compare</h3>
+
+                    <p>
+                        An e-commerce product price comparison
+                        application designed to help users compare
+                        product prices.
+                    </p>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <h3>AI Voice Firewall</h3>
+
+                    <p>
+                        An AI-based cybersecurity concept for
+                        detecting voice cloning and impersonation
+                        attacks.
+                    </p>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        A personal portfolio website showcasing
+                        my skills, education and projects.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+
+            <h2 class="section-title">Contact Me</h2>
+
+            <p class="contact-description">
+                Have a project or opportunity? Send me a message!
+            </p>
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="visitorName"
+                    name="name"
+                    placeholder="Enter Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="visitorEmail"
+                    name="email"
+                    placeholder="Enter Your Email"
+                    required
+                >
+
+                <textarea
+                    id="visitorMessage"
+                    name="message"
+                    placeholder="Enter Your Message"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+                <p id="formStatus" aria-live="polite"></p>
+
+            </form>
+
+        </section>
+
+
+        <!-- ADMIN LOGIN -->
+        <section id="admin" class="section">
+
+            <h2 class="section-title">Admin Login</h2>
+
+            <p class="contact-description">
+                Authorized access only
+            </p>
+
+            <form id="adminLoginForm">
+
+                <input
+                    type="email"
+                    id="adminEmail"
+                    placeholder="Admin Email"
+                    required
+                >
+
+                <input
+                    type="password"
+                    id="adminPassword"
+                    placeholder="Admin Password"
+                    required
+                >
+
+                <button type="submit" class="btn">
+                    Login
+                </button>
+
+                <p id="loginStatus" aria-live="polite"></p>
+
+            </form>
+
+        </section>
+
+
+        <!-- ADMIN DASHBOARD -->
+        <section id="adminDashboard"
+            class="section admin-dashboard"
+            hidden>
+
+            <h2 class="section-title">
+                Admin Dashboard
+            </h2>
+
+            <p class="dashboard-subtitle">
+                Manage your portfolio contact enquiries
+            </p>
+
+
+            <!-- STATISTICS -->
+            <div class="dashboard-stats">
+
+                <div class="stat-card">
+
+                    <h3>Total Messages</h3>
+
+                    <p id="totalMessages">0</p>
+
+                    <span>All enquiries</span>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <h3>Showing Results</h3>
+
+                    <p id="showingMessages">0</p>
+
+                    <span>Filtered messages</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- DASHBOARD TOOLBAR -->
+            <div class="dashboard-toolbar">
+
+                <input
+                    type="search"
+                    id="messageSearch"
+                    placeholder="Search name, email or message..."
+                >
+
+                <button
+                    type="button"
+                    id="refreshMessages"
+                    class="btn">
+                    ↻ Refresh
+                </button>
+
+                <button
+                    type="button"
+                    id="logoutBtn"
+                    class="btn secondary-btn">
+                    Logout
+                </button>
+
+            </div>
+
+
+            <!-- MESSAGES TABLE -->
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Message</th>
+                            <th>Timestamp</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="responseTable">
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <p id="dashboardStatus"
+                aria-live="polite">
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Sanjeevan. All Rights Reserved.
+        </p>
+
+        <p>
+            Designed & Developed by Sanjeevan
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
